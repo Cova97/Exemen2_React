@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Divisas from './Divisas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const name = 'Aldo';
-
-const Jsx = (
-  <>
-    <h1>Hola {name}</h1>
-  </>
-);
+const Jsx = () => {
+  return(
+    <>
+      <Divisas/>
+    </>
+  )
+};
 
 root.render(<Jsx/>);
 
